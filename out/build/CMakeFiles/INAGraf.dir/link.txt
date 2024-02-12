@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/INAGraf.dir/src/main.cpp.o -o INAGraf   -L/home/adaml/Projekty/WUThrust/INA233_to_Grafana/include/Adder  -Wl,-rpath,/home/adaml/Projekty/WUThrust/INA233_to_Grafana/include/Adder include/Adder/libadder.a 
