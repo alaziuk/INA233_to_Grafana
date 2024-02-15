@@ -1,16 +1,14 @@
 cmake_minimum_required(VERSION 3.26.4)
 
-project(INAGraf)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+project(INAGraf VERSION 1.0)
 
-add_subdirectory(include/Adder)
-add_subdirectory(include/INA233_Cpp-library)
+file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS "src/*.cpp")
 
-target_include_directories(${PROJECT_NAME} PUBLIC include/Adder)
-target_link_directories(${PROJECT_NAME} PRIVATE include/Adder)
-target_link_libraries(${PROJECT_NAME} adder)
+add_subdirectory(lib)
 
-target_include_directories(${PROJECT_NAME} PUBLIC include/INA233_Cpp-library)
-target_link_directories(${PROJECT_NAME} PRIVATE include/INA233_Cpp-library)
-target_link_libraries(${PROJECT_NAME} INA233_Cpp-library)
+add_executable(${PROJECT_NAME} ${SRC_FILES})
+
+target_link_libraries(${PROJECT_NAME} PUBLIC INA233)
