@@ -1,0 +1,2 @@
+/usr/bin/ar qc libINA233_Cpp-library.a "CMakeFiles/INA233_Cpp-library.dir/INA233.cpp.o"
+/usr/bin/ranlib libINA233_Cpp-library.a

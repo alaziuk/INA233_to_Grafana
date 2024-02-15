@@ -50,5 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/INAGraf.dir/DependInfo.cmake"
-  "lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/DependInfo.cmake"
+  "lib/INA233_Cpp-library/CMakeFiles/INA233.dir/DependInfo.cmake"
   )

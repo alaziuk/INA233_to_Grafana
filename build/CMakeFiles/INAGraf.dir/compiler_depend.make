@@ -193,8 +193,22 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/adaml/Projekty/WUThrust/INA233_to_Grafana/lib/INA233_Cpp-library/include/INA233.h
+  /home/adaml/Projekty/WUThrust/INA233_to_Grafana/lib/INA233_Cpp-library/include/INA233.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h
 
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -276,6 +290,8 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
+/usr/include/unistd.h:
+
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/include/c++/11/new:
@@ -305,6 +321,8 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/linux/close_range.h:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
@@ -362,6 +380,8 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
 
 /usr/include/c++/11/iosfwd:
 
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
 /usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/basic_ios.h:
@@ -413,6 +433,8 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/move.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -475,6 +497,8 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/pthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/c++/11/bits/max_size_type.h:
 

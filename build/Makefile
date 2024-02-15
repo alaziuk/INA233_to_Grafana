@@ -131,17 +131,17 @@ INAGraf/fast:
 .PHONY : INAGraf/fast
 
 #=============================================================================
-# Target rules for targets named INA233_Cpp-library
+# Target rules for targets named INA233
 
 # Build rule for target.
-INA233_Cpp-library: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 INA233_Cpp-library
-.PHONY : INA233_Cpp-library
+INA233: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 INA233
+.PHONY : INA233
 
 # fast build rule for target.
-INA233_Cpp-library/fast:
-	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build
-.PHONY : INA233_Cpp-library/fast
+INA233/fast:
+	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build
+.PHONY : INA233/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -175,7 +175,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... INA233_Cpp-library"
+	@echo "... INA233"
 	@echo "... INAGraf"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
