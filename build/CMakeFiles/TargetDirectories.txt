@@ -1,0 +1,8 @@
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles/INAGraf.dir
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles/edit_cache.dir
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles/rebuild_cache.dir
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/lib/CMakeFiles/edit_cache.dir
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/lib/CMakeFiles/rebuild_cache.dir
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/lib/INA233_Cpp-library/CMakeFiles/INA233.dir
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/lib/INA233_Cpp-library/CMakeFiles/edit_cache.dir
+/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/lib/INA233_Cpp-library/CMakeFiles/rebuild_cache.dir
