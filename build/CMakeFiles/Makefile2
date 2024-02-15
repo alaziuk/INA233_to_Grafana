@@ -95,7 +95,7 @@ lib/clean: lib/INA233_Cpp-library/clean
 # Directory level rules for directory lib/INA233_Cpp-library
 
 # Recursive "all" directory target.
-lib/INA233_Cpp-library/all: lib/INA233_Cpp-library/CMakeFiles/INA233.dir/all
+lib/INA233_Cpp-library/all: lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/all
 .PHONY : lib/INA233_Cpp-library/all
 
 # Recursive "preinstall" directory target.
@@ -103,14 +103,14 @@ lib/INA233_Cpp-library/preinstall:
 .PHONY : lib/INA233_Cpp-library/preinstall
 
 # Recursive "clean" directory target.
-lib/INA233_Cpp-library/clean: lib/INA233_Cpp-library/CMakeFiles/INA233.dir/clean
+lib/INA233_Cpp-library/clean: lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/clean
 .PHONY : lib/INA233_Cpp-library/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/INAGraf.dir
 
 # All Build rule for target.
-CMakeFiles/INAGraf.dir/all: lib/INA233_Cpp-library/CMakeFiles/INA233.dir/all
+CMakeFiles/INAGraf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/INAGraf.dir/build.make CMakeFiles/INAGraf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/INAGraf.dir/build.make CMakeFiles/INAGraf.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles --progress-num=3,4 "Built target INAGraf"
@@ -118,7 +118,7 @@ CMakeFiles/INAGraf.dir/all: lib/INA233_Cpp-library/CMakeFiles/INA233.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/INAGraf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/INAGraf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles 0
 .PHONY : CMakeFiles/INAGraf.dir/rule
@@ -133,30 +133,30 @@ CMakeFiles/INAGraf.dir/clean:
 .PHONY : CMakeFiles/INAGraf.dir/clean
 
 #=============================================================================
-# Target rules for target lib/INA233_Cpp-library/CMakeFiles/INA233.dir
+# Target rules for target lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir
 
 # All Build rule for target.
-lib/INA233_Cpp-library/CMakeFiles/INA233.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles --progress-num=1,2 "Built target INA233"
-.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233.dir/all
+lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles --progress-num=1,2 "Built target INA233_Cpp-library"
+.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/all
 
 # Build rule for subdir invocation for target.
-lib/INA233_Cpp-library/CMakeFiles/INA233.dir/rule: cmake_check_build_system
+lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/INA233_Cpp-library/CMakeFiles/INA233.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles 0
-.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233.dir/rule
+.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/rule
 
 # Convenience name for target.
-INA233: lib/INA233_Cpp-library/CMakeFiles/INA233.dir/rule
-.PHONY : INA233
+INA233_Cpp-library: lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/rule
+.PHONY : INA233_Cpp-library
 
 # clean rule for target.
-lib/INA233_Cpp-library/CMakeFiles/INA233.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/clean
-.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233.dir/clean
+lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/clean
+.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

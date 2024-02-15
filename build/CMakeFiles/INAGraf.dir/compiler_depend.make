@@ -193,7 +193,6 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/adaml/Projekty/WUThrust/INA233_to_Grafana/lib/test/include/test.h \
   /home/adaml/Projekty/WUThrust/INA233_to_Grafana/lib/INA233_Cpp-library/include/INA233.h
 
 
@@ -434,8 +433,6 @@ CMakeFiles/INAGraf.dir/src/main.cpp.o: /home/adaml/Projekty/WUThrust/INA233_to_G
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/debug/debug.h:
-
-/home/adaml/Projekty/WUThrust/INA233_to_Grafana/lib/test/include/test.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 

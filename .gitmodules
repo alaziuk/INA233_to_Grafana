@@ -1,0 +1,3 @@
+[submodule "lib/INA233_Cpp-library"]
+	path = lib/INA233_Cpp-library
+	url = git@github.com:alaziuk/INA233_Cpp-library.git

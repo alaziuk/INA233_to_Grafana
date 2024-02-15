@@ -92,7 +92,6 @@ INAGraf_EXTERNAL_OBJECTS =
 
 INAGraf: CMakeFiles/INAGraf.dir/src/main.cpp.o
 INAGraf: CMakeFiles/INAGraf.dir/build.make
-INAGraf: lib/INA233_Cpp-library/libINA233.a
 INAGraf: CMakeFiles/INAGraf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaml/Projekty/WUThrust/INA233_to_Grafana/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable INAGraf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/INAGraf.dir/link.txt --verbose=$(VERBOSE)

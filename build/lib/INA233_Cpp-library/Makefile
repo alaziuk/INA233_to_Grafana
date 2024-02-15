@@ -118,25 +118,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-lib/INA233_Cpp-library/CMakeFiles/INA233.dir/rule:
-	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/INA233_Cpp-library/CMakeFiles/INA233.dir/rule
-.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233.dir/rule
+lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/rule:
+	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/rule
+.PHONY : lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/rule
 
 # Convenience name for target.
-INA233: lib/INA233_Cpp-library/CMakeFiles/INA233.dir/rule
-.PHONY : INA233
+INA233_Cpp-library: lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/rule
+.PHONY : INA233_Cpp-library
 
 # fast build rule for target.
-INA233/fast:
-	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build
-.PHONY : INA233/fast
+INA233_Cpp-library/fast:
+	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build
+.PHONY : INA233_Cpp-library/fast
 
 INA233.o: INA233.cpp.o
 .PHONY : INA233.o
 
 # target to build an object file
 INA233.cpp.o:
-	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/INA233.cpp.o
+	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/INA233.cpp.o
 .PHONY : INA233.cpp.o
 
 INA233.i: INA233.cpp.i
@@ -144,7 +144,7 @@ INA233.i: INA233.cpp.i
 
 # target to preprocess a source file
 INA233.cpp.i:
-	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/INA233.cpp.i
+	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/INA233.cpp.i
 .PHONY : INA233.cpp.i
 
 INA233.s: INA233.cpp.s
@@ -152,7 +152,7 @@ INA233.s: INA233.cpp.s
 
 # target to generate assembly for a file
 INA233.cpp.s:
-	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233.dir/INA233.cpp.s
+	cd /home/adaml/Projekty/WUThrust/INA233_to_Grafana/build && $(MAKE) $(MAKESILENT) -f lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/build.make lib/INA233_Cpp-library/CMakeFiles/INA233_Cpp-library.dir/INA233.cpp.s
 .PHONY : INA233.cpp.s
 
 # Help Target
@@ -163,7 +163,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... INA233"
+	@echo "... INA233_Cpp-library"
 	@echo "... INA233.o"
 	@echo "... INA233.i"
 	@echo "... INA233.s"
