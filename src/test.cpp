@@ -35,25 +35,27 @@ int main(){
     std::cout << "PID = " << pdwPID << '\n';
     std::cout << "************************************************\n";
 
-
+    /*
     ftStatus = FT_Open(deviceNumber, &ftHandle);
     if(ftStatus != FT_OK){
         std::cout << "************************************************\n";
         std::cout << "FT_STATUS NOT OK Cannot open\n";
         std::cout << "************************************************\n";
+        ftStatus = FT_Close(&ftHandle);
         return 0;
     }
 
     std::cout << "************************************************\n";
     std::cout << "FT_STATUS OK Opened\n";
     std::cout << "************************************************\n";
-
+    */
 
     ftStatus = FT_ListDevices(&numDevs, NULL, FT_LIST_NUMBER_ONLY);
     if(ftStatus != FT_OK){
         std::cout << "************************************************\n";
         std::cout << "FT_STATUS NOT OK Get the number of devices currently connected\n";
         std::cout << "************************************************\n";
+        //ftStatus = FT_Close(&ftHandle);
         return 0;
     }
 
@@ -68,6 +70,7 @@ int main(){
         std::cout << "************************************************\n";
         std::cout << "FT_STATUS NOT OK Get serial number of first device\n";
         std::cout << "************************************************\n";
+        //ftStatus = FT_Close(&ftHandle);
         return 0;
     }
 
@@ -92,6 +95,7 @@ int main(){
         std::cout << "************************************************\n";
         std::cout << "FT_STATUS NOT OK Get device descriptions of all devices currently connected\n";
         std::cout << "************************************************\n";
+        //ftStatus = FT_Close(&ftHandle);
         return 0;
     }
 
@@ -115,6 +119,7 @@ int main(){
         std::cout << "************************************************\n";
         std::cout << "FT_STATUS NOT OK Get locations of all devices currently connected\n";
         std::cout << "************************************************\n";
+        //ftStatus = FT_Close(&ftHandle);
         return 0;
     }
 
