@@ -1,14 +1,26 @@
 cmake_minimum_required(VERSION 3.26.4)
 
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
 project(INAGraf VERSION 1.0)
 
 file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS "src/*.cpp")
 
-add_subdirectory(lib)
+find_library(MPSSE_LIB mpsse PATHS /usr/local/lib)
 
-add_executable(${PROJECT_NAME} ${SRC_FILES})
+if(NOT MPSSE_LIB)
+    message(FATAL_ERROR "MPSSE library not found")
+endif()
+
+find_library(FTD2XX_LIB ftd2xx PATHS /usr/local/lib)
+
+if(NOT FTD2XX_LIB)
+    message(FATAL_ERROR "FTD2XX library not found")
+endif()
+
+add_subdirectory(lib)
+# ${SRC_FILES}
+add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(test src/test.cpp)
 
 target_link_libraries(${PROJECT_NAME} PUBLIC INA233)
+target_link_libraries(test PRIVATE ${MPSSE_LIB})
+target_link_libraries(test PRIVATE ${FTD2XX_LIB})

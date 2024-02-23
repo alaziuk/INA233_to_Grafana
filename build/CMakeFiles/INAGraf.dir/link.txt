@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/INAGraf.dir/src/main.cpp.o -o INAGraf  lib/INA233_Cpp-library/libINA233.a -li2c 
+/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/INAGraf.dir/src/main.cpp.o -o INAGraf  lib/INA233_Cpp-library/libINA233.a

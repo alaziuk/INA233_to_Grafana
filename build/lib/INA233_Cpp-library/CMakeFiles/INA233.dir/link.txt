@@ -1,2 +1,2 @@
-/usr/bin/ar qc libINA233.a CMakeFiles/INA233.dir/INA233.cpp.o
-/usr/bin/ranlib libINA233.a
+/usr/bin/aarch64-linux-gnu-ar qc libINA233.a CMakeFiles/INA233.dir/INA233.cpp.o
+/usr/bin/aarch64-linux-gnu-ranlib libINA233.a

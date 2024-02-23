@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/wuthrust/Documents/INA233_to_Grafana/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/wuthrust/Documents/INA233_to_Grafana/lib/INA233_Cpp-library/include -g -o CMakeFiles/INAGraf.dir/src/main.cpp.o -c /home/wuthrust/Documents/INA233_to_Grafana/src/main.cpp",
+  "file": "/home/wuthrust/Documents/INA233_to_Grafana/src/main.cpp",
+  "output": "CMakeFiles/INAGraf.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/wuthrust/Documents/INA233_to_Grafana/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -g -o CMakeFiles/test.dir/src/test.cpp.o -c /home/wuthrust/Documents/INA233_to_Grafana/src/test.cpp",
+  "file": "/home/wuthrust/Documents/INA233_to_Grafana/src/test.cpp",
+  "output": "CMakeFiles/test.dir/src/test.cpp.o"
+},
+{
+  "directory": "/home/wuthrust/Documents/INA233_to_Grafana/build/lib/INA233_Cpp-library",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/wuthrust/Documents/INA233_to_Grafana/lib/INA233_Cpp-library/include -g -o CMakeFiles/INA233.dir/INA233.cpp.o -c /home/wuthrust/Documents/INA233_to_Grafana/lib/INA233_Cpp-library/INA233.cpp",
+  "file": "/home/wuthrust/Documents/INA233_to_Grafana/lib/INA233_Cpp-library/INA233.cpp",
+  "output": "lib/INA233_Cpp-library/CMakeFiles/INA233.dir/INA233.cpp.o"
+}
+]

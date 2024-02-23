@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-gcc -g -rdynamic "CMakeFiles/spi-sample.dir/samples/spi-sample.c.o" -o spi-sample  -Wl,-rpath,/home/wuthrust/Documents/INA233_to_Grafana/build/lib/libMPSSE:/home/wuthrust/Documents/INA233_to_Grafana/lib/libMPSSE/libftd2xx1/x86_64: libMPSSE.so /home/wuthrust/Documents/INA233_to_Grafana/lib/libMPSSE/libftd2xx1/x86_64/libftd2xx.so
